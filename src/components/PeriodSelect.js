@@ -7,7 +7,7 @@ const PeriodSelect = ({ handlePeriodChange }) => {
   return (
     <div>
       <h2>Select Period</h2>
-      <select onChange={handlePeriodChange} className="select-period">
+      <select onChange={handlePeriodChange}>
         <option value="">-- Select a period --</option>
         {periods.map((period) => (
           <option key={period} value={period}>
