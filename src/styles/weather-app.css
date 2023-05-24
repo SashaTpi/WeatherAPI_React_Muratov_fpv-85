@@ -1,0 +1,101 @@
+/* moulpali-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Moulpali';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/moulpali-v28-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/moulpali-v28-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/moulpali-v28-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/moulpali-v28-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/moulpali-v28-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/moulpali-v28-latin-regular.svg#Moulpali') format('svg'); /* Legacy iOS */
+}
+
+/* Стили для мобильных устройств */
+@media (max-width: 768px) {
+    .container {
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+
+    .select-city {
+      background-color: #f2f2f2;
+      color: #333;
+    }
+
+    .select-period {
+      background-color: #eaeaea;
+      color: #555;
+
+    }
+  
+    .title {
+      font-size: 24px;
+      color: #00cc00;
+      margin-bottom: 10px;
+    }
+  
+    .weather-card {
+      background-color: #ffffcc;
+      border-radius: 8px;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  
+    .temperature {
+      font-size: 18px;
+      color: #ff3300;
+    }
+
+    .select-city {
+      background-color: #f2f2f2;
+      color: #333;
+    }
+
+    .select-period {
+      background-color: #eaeaea;
+      color: #555;
+
+    }
+
+  }
+  
+  /* Стили для больших экранов */
+  @media (min-width: 769px) {
+    .container {
+      background-color: #baf4ba;
+      padding: 10px;
+    }
+  
+    .title {
+      font-size: 36px;
+      color: #006600;
+      margin-bottom: 20px;
+    }
+  
+    .weather-card {
+      background-color: #ffff99;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+  
+    .temperature {
+      font-size: 24px;
+      color: #cc0000;
+    }
+    
+    .select-city {
+      background-color: #f2f2f2;
+      color: #333;
+    }
+
+    .select-period {
+      background-color: #eaeaea;
+      color: #555;
+
+    }
+  }
+  
+  
